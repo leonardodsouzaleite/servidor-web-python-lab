@@ -1,4 +1,4 @@
-import socket
+from socket import socket, AF_INET, SOCK_STREAM
 
 # Define o endereço da porta em que o servidor ficará aguardando requisições HTTP.
 serverPort = 6789
